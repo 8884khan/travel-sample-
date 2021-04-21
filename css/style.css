@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Antonio', sans-serif;
+    line-height: 1.7;
+}
+
+/* ############## header ########### */
+
+.header {
+    height: 97vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+/* ########### navi bar #############  */
+.navtag {
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navtag::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.list {
+    /* border: 2px solid black; */
+
+    text-transform: capitalize;
+}
+
+/* #########  logo ##### */
+.logo {
+    float: left;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: darkgray;
+    margin: 5px;
+}
+
+.logo span {
+    color: black;
+    font-size: 30px;
+}
+
+/* ############# navbar ########### */
+
+.list {
+    float: right;
+    margin: 10px;
+}
+
+.list ul {
+    list-style-type: none;
+
+}
+
+.list ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.list a {
+    /* margin: 10px; */
+    padding: 10px;
+    /* border-radius: 20px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgray;
+}
+
+.list a {
+    padding-bottom: 0.3rem;
+}
+
+.list a:hover {
+    /* border-bottom: 1px solid cadetblue; */
+}
+
+/* ########## header content ###### */
+
+/* ######## this is flex ###### */
+/* .header-content {
+    border: 2px solid black;
+    height: 100%;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: honeydew;
+    text-transform: capitalize;
+}
+
+.header-content p {
+    padding: 10px;
+    color: ivory;
+    margin: 10px;
+}
+
+.header-content button {
+    padding: 20px 30px;
+    border-radius: 20px;
+
+    text-transform: capitalize;
+}
+
+.header-content button a {
+    color: black;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+} */
+.header-content {
+    text-align: center;
+    padding: 50px;
+    /* border: 2px solid white; */
+    border-style: outset;
+    border-width: 10px;
+    /* border-color: red; */
+    max-width: 1200px;
+    /* text-align: center; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+}
+
+
+.header-content h1 {
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 5px;
+    color: papayawhip;
+
+}
+
+.header-content p {
+    text-transform: capitalize;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: papayawhip;
+    text-align: center;
+
+}
+
+.btn {
+    display: inline-block;
+    /* background-color: white; */
+    padding: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: monospace;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.btn a {
+
+    color: red;
+    text-decoration: none;
+
+}
+
+/* ########## section ####### */
+.main {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #7F8C8D;
+
+}
+
+.section1,
+.section2 {
+    /* border: 2px solid black; */
+    display: flex;
+
+    margin: 40px;
+    height: 100%;
+}
+
+.section1,
+.text,
+.image {
+    width: 80%;
+}
+
+.section2,
+.text2,
+.image2 {
+    width: 80%;
+}
+
+.section1 h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 5px;
+
+
+    text-align: center;
+    background: #616A6B;
+}
+
+.section1 a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.section1 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px;
+    text-align: center;
+    /* background: #B3B6B7; */
+
+}
+
+
+
+
+
+.section2 h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.section2 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.section1 .image {
+    /* background-image: url("https://images.unsplash.com/photo-1615524152519-cce424198a2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxODM5NzM4MA&ixlib=rb-1.2.1&q=80&w=400"); */
+    background-image: url("pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section2 .image2 {
+    background-image: url("pic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ######## footer ##### */
+footer {
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    background: #34495E;
+}
+
+footer .box {
+    /* border: 2px solid red; */
+    height: 20vh;
+    padding: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+
+}
+
+.box a {
+    text-decoration: none;
+    color: honeydew;
+    padding: 10px;
+}
+
+.box a:hover {
+    background: gainsboro;
+    color: black;
+}
